@@ -6,7 +6,8 @@ class CFG:
     data_path = root.joinpath("data")
     output_path = root.joinpath("preprocessed_data")
 
-    model = "gpt-4o-mini"
+    epoch_num =1
+    model = "gpt-4o-mini-2024-07-18"
 
     system_prompt = (
         "Given the medical description report, classify it into one of these categories: "
