@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# OpenAI API key
+openai_key.json
+
 # Distribution / packaging
 .Python
 build/
