@@ -184,4 +184,4 @@ def preprocess_medical_reports(csv_path, random_state=42, sample_size=110, val_t
 
 
 if __name__ == '__main__':
-    preprocess_medical_reports(CFG.data_path.joinpath("reports.csv"), random_state=42, output_dir="output")
+    preprocess_medical_reports(CFG.data_path.joinpath("reports.csv"), random_state=42, output_dir=CFG.output_path)
